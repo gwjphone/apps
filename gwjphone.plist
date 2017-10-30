@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>assets</key>
+				<array>
+					<dict>
+						<key>kind</key>
+						<string>software-package</string>
+						<key>url</key>
+						<!-- http或者https链接的ipa文件地址 -->
+						<string>http://wx.gwjphone.com/file/gwjphone.ipa</string>
+					</dict>
+					<dict>
+						<key>kind</key>
+						<string>full-size-image</string>
+						<key>needs-shine</key>
+						<true/>
+						<key>url</key>
+						<!-- http或者https链接的图片地址，可直接使用app对应的icon（分辨率没强制要求） -->
+						<string>http://is5.mzstatic.com/image/thumb/Purple128/v4/27/c1/3c/27c13c1c-102a-55ab-528e-13bb9abe2fb3/source/175x175bb.jpg</string>
+					</dict>
+					<dict>
+						<key>kind</key>
+						<string>display-image</string>
+						<key>needs-shine</key>
+						<true/>
+						<key>url</key>
+						<!-- http或者https链接的小图片地址，可直接使用app对应的icon（分辨率没强制要求） -->
+						<string>http://is5.mzstatic.com/image/thumb/Purple128/v4/27/c1/3c/27c13c1c-102a-55ab-528e-13bb9abe2fb3/source/175x175bb.jpg</string>
+					</dict>
+				</array>
+				<key>metadata</key>
+				<dict>
+					<key>bundle-identifier</key>
+					<!-- BundleID，就是新建app时的包名 -->
+					<string>com.gwjphone</string>
+					<key>bundle-version</key>
+					<!-- 版本号 -->
+					<string>1.1.2</string>
+					<key>kind</key>
+					<string>software</string>
+					<key>title</key>
+					<!-- 安装app时的提示信息 -->
+					<string>盖碗+</string>
+				</dict>
+			</dict>
+		</array>
+	</dict>
+</plist>
