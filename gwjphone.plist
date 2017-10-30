@@ -12,7 +12,7 @@
 						<string>software-package</string>
 						<key>url</key>
 						<!-- http或者https链接的ipa文件地址 -->
-						<string>http://wx.gwjphone.com/file/gwjphone.ipa</string>
+						<string>https://raw.githubusercontent.com/gwjphone/apps/master/gwjphone.ipa</string>
 					</dict>
 					<dict>
 						<key>kind</key>
